@@ -9,11 +9,10 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class OlaMundoController
 {
-
     /**
      * @Route("/ola")
      */
-    public function olaMundoAction(Request $request) : Response
+    public function olaMundoAction(Request $request): Response
     {
         $pathInfo = $request->getPathInfo();
         $query = $request->query->all();

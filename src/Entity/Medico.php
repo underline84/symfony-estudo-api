@@ -23,5 +23,4 @@ class Medico
      * @ORM\Column(type="string")
      */
     public $nome;
-    
 }
